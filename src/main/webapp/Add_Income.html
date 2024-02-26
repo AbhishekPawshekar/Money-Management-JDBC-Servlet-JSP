@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Income</title>
+ <link rel="stylesheet" href="./Add_Income_CSS.css">
+</head>
+</head>
+<body>
+ <nav>
+          <h1 class="title">ADD INCOME</h1>
+</nav>
+<main class="main_section">
+        <div class="container_form">
+            <h1>Add Income Details</h1>
+      <form action="income_details" method="POST">
+          <input type="number" required name="income" placeholder="Income money" class="input_deco" />
+          <select name="category">
+                    <option selected disabled>category</option>
+                    <option value="allowance">Allowance</option>
+                    <option value="bonus">Bonus</option>
+                    <option value="business">business</option>
+                    <option value="investment">Investment Income</option>
+                    <option value="pension">Pension</option>
+                    <option value="salary">Salary</option>
+          </select>
+          <div>
+                    <span style="margin-right: 30px;">Payment Method: </span>
+                    <input type="radio" checked name="payment" value="bank"/>Bank Transfer
+                    <input type="radio" name="payment" value="card"/>Card
+                    <input type="radio" name="payment" value="cash"/>Cash
+                    <input type="radio" name="payment" value="other"/>Other
+          </div>
+          <input type="text" name="note" placeholder="Add Note" class="input_deco"/>
+         <div><input type="date" name="date" placeholder="dd-mm-yyyy"/>
+          <input type="time" name="time" /></div>
+          <input type="submit" value="Submit" class="submitButton"/>
+      </form>
+    </div>
+</main>
+</body>
+</html>

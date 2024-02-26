@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+ <link rel="stylesheet" href="./Add_Income_CSS.css">
+</head>
+<body>
+      <nav>
+          <h1 class="title">ADD EXPENSES</h1>
+</nav>
+<main class="main_section">
+        <div class="container_form">
+            <h1>Add Expenses Details</h1>
+      <form action="expenses_details" method="POST">
+          <input type="number" required name="income" placeholder="Expense money" class="input_deco" />
+          <select name="category">
+                    <option selected disabled>category</option>
+                    <option value="cabletv">CableTV</option>
+                    <option value="cloth">Cloth</option>
+                    <option value="education">Education</option>
+                    <option value="electricity">Electricity</option>
+                    <option value="emi">EMI</option>
+                    <option value="entertainment">Entertainment</option>
+                    <option value="gas">Gas</option>
+                    <option value="health">Health</option>
+                    <option value="internet">Internet</option>
+                    <option value="shopping">Shopping</option>
+          </select>
+          <div>
+                    <span style="margin-right: 30px;">Payment Method: </span>
+                    <input type="radio" checked name="payment" value="bank"/>Bank Transfer
+                    <input type="radio" name="payment" value="card"/>Card
+                    <input type="radio" name="payment" value="cash"/>Cash
+                    <input type="radio" name="payment" value="other"/>Other
+          </div>
+          <input type="text" name="note" placeholder="Add Note" class="input_deco"/>
+         <div><input type="date" name="date" placeholder="dd-mm-yyyy"/>
+          <input type="time" name="time" /></div>
+          <input type="submit" value="Submit" class="submitButton"/>
+      </form>
+    </div>
+</main>
+</body>
+</html>

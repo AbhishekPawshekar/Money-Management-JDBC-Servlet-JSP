@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Expense Manager</title>
+<link rel="stylesheet" href="./ExpenseManager_CSS.css">
+</head>
+<body>
+    <nav>
+          <h1 class="title">Expense Calculation</h1>
+          
+</nav>
+
+<main class="main_section">
+          <section class="operation">
+          <h2>OPERATION</h2>
+          <section class="buttons">
+          <a href="addIncome"><button>+<br/> Add Income</button></a>
+          <a href="addExpenses"><button>- <br/>Add Expense</button></a>
+          <a href="seeTransaction"><button>Transaction</button></a>
+                    </section>
+          </section>
+
+          <section class="operation">
+          <h3 style="padding-left: 20px;">Select from-and-to month you want your details:</h3>
+          			<form action="monthly_transaction" style="margin:20px">
+          			<input type="date" name="startdate" placeholder="dd-mm-yyyy"/>
+          			<input type="date" name="enddate" placeholder="dd-mm-yyyy"/>
+          			<input type="submit" value="submit" class="datesubmit" />
+                    </form>
+          </section>
+</main>
+</body>
+</html>
