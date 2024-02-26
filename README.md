@@ -4,7 +4,7 @@ This web-based dynamic project, employing JDBC, Servlets, and JSP, facilitates t
 2. **Servlet:** Responsible for managing database operations and facilitating communication with web pages.
 3. **JSP (JavaServer Pages):** Used for displaying data fetched from the database, integrated with HTML and CSS for rendering.
 4. **JavaScript:** Implemented for runtime answer validation and displaying correctness or errors.
-5. **HTML/CSS:** Employed to design and structure all web pages.
+5. **HTML/CSS:** Employed to design and structure all web pages .
 
 main page           |  transaction page
 :-------------------------:|:-------------------------:
