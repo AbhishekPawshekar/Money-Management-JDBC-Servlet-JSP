@@ -8,8 +8,8 @@ This web-based dynamic project, employing JDBC, Servlets, and JSP, facilitates t
 
 main page           |  transaction page
 :-------------------------:|:-------------------------:
-![Screenshot 2024-02-26 213923](https://github.com/AbhishekPawshekar/Money-Management-JDBC-Servlet-JSP/assets/89447125/93bd9267-3f29-4fed-a657-23ca4925bdbc) | ![Screenshot 2024-02-26 213923](https://github.com/AbhishekPawshekar/Money-Management-JDBC-Servlet-JSP/assets/89447125/ed8b796b-c65d-4498-9863-6776df71b626)
-Add Income Page         |  Add Expenditure 
+![Screenshot 2024-02-26 213923](https://github.com/AbhishekPawshekar/Money-Management-JDBC-Servlet-JSP/assets/89447125/93bd9267-3f29-4fed-a657-23ca4925bdbc) | ![Screenshot 2024-02-26 221322](https://github.com/AbhishekPawshekar/Money-Management-JDBC-Servlet-JSP/assets/89447125/36bcea12-028d-451c-918e-b8bcfca75dbc)
+
 :-------------------------:|:-------------------------:
 ![Screenshot 2024-02-26 214118](https://github.com/AbhishekPawshekar/Money-Management-JDBC-Servlet-JSP/assets/89447125/cfd3a095-fdfd-4b74-b8bb-840cce949220) | ![Screenshot 2024-02-26 214308](https://github.com/AbhishekPawshekar/Money-Management-JDBC-Servlet-JSP/assets/89447125/3eaccc0b-8aa9-4493-9a5b-82c55636b66c)
 
